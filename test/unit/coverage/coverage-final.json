@@ -1,0 +1,3 @@
+{"/Users/ois/the_odin_project/battleships/src/App.vue": {"path":"/Users/ois/the_odin_project/battleships/src/App.vue","statementMap":{"0":{"start":{"line":9,"column":0},"end":{"line":null,"column":-1}}},"fnMap":{},"branchMap":{},"s":{"0":0},"f":{},"b":{}}
+,"/Users/ois/the_odin_project/battleships/src/components/HelloWorld.vue": {"path":"/Users/ois/the_odin_project/battleships/src/components/HelloWorld.vue","statementMap":{"0":{"start":{"line":90,"column":0},"end":{"line":null,"column":-1}}},"fnMap":{"0":{"name":"data","decl":{"start":{"line":89,"column":0},"end":{"line":null,"column":-1}},"loc":{"start":{"line":89,"column":0},"end":{"line":93,"column":0}}}},"branchMap":{},"s":{"0":1},"f":{"0":1},"b":{}}
+}
