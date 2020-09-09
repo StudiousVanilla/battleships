@@ -32,6 +32,11 @@ this.patrolBoat = new Ship('patrolBoat',2,false,false)
 
 this.ships = [this.carrier,this.battleship, this.destroyer, this.submarine, this.patrolBoat]
 
+// used to trigger end of placement phase in game
+this.shipsPlaced = []
+
+this.shotResult = ''
+
     }
 
     // this funcrtion is called when the player puts a ship on the board, checkCoordinates() and placeship() handle all the logic involved.
@@ -59,8 +64,10 @@ this.ships = [this.carrier,this.battleship, this.destroyer, this.submarine, this
             for( let i = 0; i < ship.length; i++){
             this.grid[parseInt(position.charAt(0))+i][parseInt(position.charAt(1))] = ship.name+(i+1)
             }
-            
+                
         }
+        // adds ship to the shipsPlaced array
+        this.shipsPlaced.push(ship) 
         this.message = 'Place all your ships and then press ready'
      }
 
@@ -127,6 +134,8 @@ this.ships = [this.carrier,this.battleship, this.destroyer, this.submarine, this
                 }
             }
         }
+        // removes ship from shipsPlaced array
+        this.shipsPlaced = this.shipsPlaced.filter(placedShip => placedShip.name != ship.name )
     }
 
     resolveShot(position){
@@ -134,28 +143,38 @@ this.ships = [this.carrier,this.battleship, this.destroyer, this.submarine, this
         if(position.charAt(0) > 9 || position.charAt(1) > 9){
             // displayed on player function call
             this.message = 'Not a valid coordinate'
-            return false
+            // o is an invalid shot
+            this.shotResult = 0
         }
 
         // if the coordinate is empty then it is marked as a miss
         else if(this.grid[parseInt(position.charAt(0))][parseInt(position.charAt(1))] == ''){
             this.markMiss(position)
+            // eslint-disable-next-line quotes
+            this.message = "That's a miss"
+            // shot result is 1 for a miss
+            this.shotResult =  1
         }
 
         // if the coordinate was previously selected and was a miss
         else if(this.grid[parseInt(position.charAt(0))][parseInt(position.charAt(1))] == 'miss'){
             this.message = 'Cannot select the same coordinate twice'
+            this.shotResult = 0
         }
 
         // if the coordinate was previously selected and was a hit
         else if((this.grid[parseInt(position.charAt(0))][parseInt(position.charAt(1))]).slice(-3) == 'hit'){
             this.message = 'That coordinate has already been hit'
+            this.shotResult = 0
         }
 
         // if the coordinate is a hit
         else{
             this.markHit(position)
-            
+            // eslint-disable-next-line quotes
+            this.message = "That's a hit!"
+            // shotResult is 2 for a hit
+            this.shotResult =  2
         }
     }
 

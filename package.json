@@ -9,11 +9,14 @@
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js",
     "test": "jest",
-    "watch":"jest --watch *.js",
+    "watch": "jest --watch *.js",
     "lint": "eslint --ext .js,.vue src test/unit",
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
     "vue": "^2.5.2"
   },
   "devDependencies": {

@@ -3,5 +3,8 @@
     "jest": true
   },
   "globals": { 
+  },
+  "rules": {
+    "vue/attribute-hyphenation": 0
   }
 }

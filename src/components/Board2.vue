@@ -2,405 +2,405 @@
   <div
     class="grid" >
     <div
-      id = "00"
-      class = "boardSquare" 
-      @click="testMethod('00')">00</div>
+      id = "00-2"  
+      class = "boardSquare"
+      @click="coordinateSelect('00')"/>
     <div
-      id = "01"
+      id = "01-2"  
       class = "boardSquare" 
-      @click="testMethod('01')">01</div>
+      @click="coordinateSelect('01')"/>
     <div
-      id = "02"  
+      id = "02-2"     
       class = "boardSquare" 
-      @click="testMethod('02')">02</div>
+      @click="coordinateSelect('02')"/>
     <div  
-      id = "03"
+      id = "03-2"
       class = "boardSquare" 
-      @click="testMethod('03')">03</div>
+      @click="coordinateSelect('03')"/>
     <div 
-      id = "04" 
+      id = "04-2"    
       class = "boardSquare" 
-      @click="testMethod('04')">04</div>
+      @click="coordinateSelect('04')"/>
     <div
-      id = "05"  
+      id = "05-2"   
       class = "boardSquare" 
-      @click="testMethod('05')">05</div>
+      @click="coordinateSelect('05')"/>
     <div
-      id = "06"  
+      id = "06-2"  
       class = "boardSquare" 
-      @click="testMethod('06')">06</div>
+      @click="coordinateSelect('06')"/>
     <div
-      id = "07"
+      id = "07-2"  
       class = "boardSquare" 
-      @click="testMethod('07')">07</div>
+      @click="coordinateSelect('07')"/>
     <div  
-      id = "08"
+      id = "08-2"  
       class = "boardSquare" 
-      @click="testMethod('08')">08</div>
+      @click="coordinateSelect('08')"/>
     <div 
-      id = "09" 
+      id = "09-2"    
       class = "boardSquare" 
-      @click="testMethod('09')">09</div>
+      @click="coordinateSelect('09')"/>
     <div
-      id = "10"  
+      id = "10-2"        
       class = "boardSquare" 
-      @click="testMethod('10')">10</div>
+      @click="coordinateSelect('10')"/>
     <div  
-      id = "11"
+      id = "11-2"  
       class = "boardSquare" 
-      @click="testMethod('11')">11</div>
+      @click="coordinateSelect('11')"/>
     <div 
-      id = "12" 
+      id = "12-2"    
       class = "boardSquare" 
-      @click="testMethod('12')">12</div>
+      @click="coordinateSelect('12')"/>
     <div 
-      id = "13" 
+      id = "13-2"      
       class = "boardSquare" 
-      @click="testMethod('13')">13</div>
+      @click="coordinateSelect('13')"/>
     <div 
-      id = "14" 
+      id = "14-2"    
       class = "boardSquare" 
-      @click="testMethod('14')">14</div>
+      @click="coordinateSelect('14')"/>
     <div 
-      id = "15" 
+      id = "15-2"    
       class = "boardSquare" 
-      @click="testMethod('15')">15</div>
+      @click="coordinateSelect('15')"/>
     <div 
-      id = "16" 
+      id = "16-2"    
       class = "boardSquare" 
-      @click="testMethod('16')">16</div>
+      @click="coordinateSelect('16')"/>
     <div  
-      id = "17"
+      id = "17-2"  
       class = "boardSquare" 
-      @click="testMethod('17')">17</div>
+      @click="coordinateSelect('17')"/>
     <div  
-      id = "18"
+      id = "18-2"  
       class = "boardSquare" 
-      @click="testMethod('18')">18</div>
+      @click="coordinateSelect('18')"/>
     <div  
-      id = "19"
+      id = "19-2"  
       class = "boardSquare" 
-      @click="testMethod('19')">19</div>
+      @click="coordinateSelect('19')"/>
     <div 
-      id = "20" 
+      id = "20-2"    
       class = "boardSquare" 
-      @click="testMethod('20')">20</div>
+      @click="coordinateSelect('20')"/>
     <div
-      id = "21"
+      id = "21-2"  
       class = "boardSquare" 
-      @click="testMethod('21')">21</div>
+      @click="coordinateSelect('21')"/>
     <div  
-      id = "22"
+      id = "22-2"  
       class = "boardSquare" 
-      @click="testMethod('22')">22</div>
+      @click="coordinateSelect('22')"/>
     <div  
-      id = "23"
+      id = "23-2"  
       class = "boardSquare" 
-      @click="testMethod('23')">23</div>
+      @click="coordinateSelect('23')"/>
     <div  
-      id = "24"
+      id = "24-2"  
       class = "boardSquare" 
-      @click="testMethod('24')">24</div>
+      @click="coordinateSelect('24')"/>
     <div 
-      id = "25" 
+      id = "25-2"    
       class = "boardSquare" 
-      @click="testMethod('25')">25</div>
+      @click="coordinateSelect('25')"/>
     <div 
-      id = "26" 
+      id = "26-2"    
       class = "boardSquare" 
-      @click="testMethod('26')">26</div>
+      @click="coordinateSelect('26')"/>
     <div  
-      id = "27"
+      id = "27-2"  
       class = "boardSquare" 
-      @click="testMethod('27')">27</div>
+      @click="coordinateSelect('27')"/>
     <div  
-      id = "38"
+      id = "28-2"  
       class = "boardSquare" 
-      @click="testMethod('28')">28</div>
+      @click="coordinateSelect('28')"/>
     <div  
-      id = "29"
+      id = "29-2"  
       class = "boardSquare" 
-      @click="testMethod('29')">29</div>
+      @click="coordinateSelect('29')"/>
     <div  
-      id = "30"
+      id = "30-2"  
       class = "boardSquare" 
-      @click="testMethod('30')">30</div>
+      @click="coordinateSelect('30')"/>
     <div  
-      id = "31"
+      id = "31-2"  
       class = "boardSquare" 
-      @click="testMethod('31')">31</div>
+      @click="coordinateSelect('31')"/>
     <div 
-      id = "32" 
+      id = "32-2"    
       class = "boardSquare" 
-      @click="testMethod('32')">32</div>
+      @click="coordinateSelect('32')"/>
     <div  
-      id = "33"
+      id = "33-2"  
       class = "boardSquare" 
-      @click="testMethod('33')">33</div>
+      @click="coordinateSelect('33')"/>
     <div  
-      id = "34"
+      id = "34-2"  
       class = "boardSquare" 
-      @click="testMethod('34')">34</div>
+      @click="coordinateSelect('34')"/>
     <div 
-      id = "35" 
+      id = "35-2"    
       class = "boardSquare" 
-      @click="testMethod('35')">35</div>
+      @click="coordinateSelect('35')"/>
     <div  
-      id = "36"
+      id = "36-2"  
       class = "boardSquare" 
-      @click="testMethod('36')">36</div>
+      @click="coordinateSelect('36')"/>
     <div  
-      id = "37"
+      id = "37-2"  
       class = "boardSquare" 
-      @click="testMethod('37')">37</div>
+      @click="coordinateSelect('37')"/>
     <div  
-      id = "38"
+      id = "38-2"  
       class = "boardSquare" 
-      @click="testMethod('38')">38</div>
+      @click="coordinateSelect('38')"/>
     <div  
-      id = "39"
+      id = "39-2"  
       class = "boardSquare" 
-      @click="testMethod('39')">39</div>
+      @click="coordinateSelect('39')"/>
     <div  
-      id = "40"
+      id = "40-2"  
       class = "boardSquare" 
-      @click="testMethod('40')">40</div>
+      @click="coordinateSelect('40')"/>
     <div  
-      id = "41"
+      id = "41-2"  
       class = "boardSquare" 
-      @click="testMethod('41')">41</div>
+      @click="coordinateSelect('41')"/>
     <div  
-      id = "42"
+      id = "42-2"  
       class = "boardSquare" 
-      @click="testMethod('42')">42</div>
+      @click="coordinateSelect('42')"/>
     <div  
-      id = "43"
+      id = "43-2"  
       class = "boardSquare" 
-      @click="testMethod('43')">43</div>
+      @click="coordinateSelect('43')"/>
     <div  
-      id = "44"
+      id = "44-2"  
       class = "boardSquare" 
-      @click="testMethod('44')">44</div>
+      @click="coordinateSelect('44')"/>
     <div  
-      id = "45"
+      id = "45-2"  
       class = "boardSquare" 
-      @click="testMethod('45')">45</div>
+      @click="coordinateSelect('45')"/>
     <div  
-      id = "46"
+      id = "46-2"  
       class = "boardSquare" 
-      @click="testMethod('46')">46</div>
+      @click="coordinateSelect('46')"/>
     <div  
-      id = "47"
+      id = "47-2"  
       class = "boardSquare" 
-      @click="testMethod('47')">47</div>
+      @click="coordinateSelect('47')"/>
     <div  
-      id = "48"
+      id = "48-2"  
       class = "boardSquare" 
-      @click="testMethod('48')">48</div>
+      @click="coordinateSelect('48')"/>
     <div  
-      id = "49"
+      id = "49-2"  
       class = "boardSquare" 
-      @click="testMethod('49')">49</div>
+      @click="coordinateSelect('49')"/>
     <div  
-      id = "50"
+      id = "50-2"  
       class = "boardSquare" 
-      @click="testMethod('50')">50</div>
+      @click="coordinateSelect('50')"/>
     <div  
-      id = "51"
+      id = "51-2"  
       class = "boardSquare" 
-      @click="testMethod('51')">51</div>
+      @click="coordinateSelect('51')"/>
     <div  
-      id = "52"
+      id = "52-2"  
       class = "boardSquare" 
-      @click="testMethod('52')">52</div>
+      @click="coordinateSelect('52')"/>
     <div  
-      id = "53"
+      id = "53-2"  
       class = "boardSquare" 
-      @click="testMethod('53')">53</div>
+      @click="coordinateSelect('53')"/>
     <div  
-      id = "54"
+      id = "54-2"  
       class = "boardSquare" 
-      @click="testMethod('54')">54</div>
+      @click="coordinateSelect('54')"/>
     <div  
-      id = "55"
+      id = "55-2"  
       class = "boardSquare" 
-      @click="testMethod('55')">55</div>
+      @click="coordinateSelect('55')"/>
     <div  
-      id = "56"
+      id = "56-2"  
       class = "boardSquare" 
-      @click="testMethod('56')">56</div>
+      @click="coordinateSelect('56')"/>
     <div  
-      id = "57"
+      id = "57-2"  
       class = "boardSquare" 
-      @click="testMethod('57')">57</div>
+      @click="coordinateSelect('57')"/>
     <div  
-      id = "58"
+      id = "58-2"  
       class = "boardSquare" 
-      @click="testMethod('58')">58</div>
+      @click="coordinateSelect('58')"/>
     <div  
-      id = "59"
+      id = "59-2"  
       class = "boardSquare" 
-      @click="testMethod('59')">59</div>
+      @click="coordinateSelect('59')"/>
     <div  
-      id = "60"
+      id = "60-2"  
       class = "boardSquare" 
-      @click="testMethod('60')">60</div>
+      @click="coordinateSelect('60')"/>
     <div  
-      id = "61"
+      id = "61-2"  
       class = "boardSquare" 
-      @click="testMethod('61')">61</div>
+      @click="coordinateSelect('61')"/>
     <div  
-      id = "62"
+      id = "62-2"  
       class = "boardSquare" 
-      @click="testMethod('62')">62</div>
+      @click="coordinateSelect('62')"/>
     <div  
-      id = "63"
+      id = "63-2"  
       class = "boardSquare" 
-      @click="testMethod('63')">63</div>
+      @click="coordinateSelect('63')"/>
     <div  
-      id = "64"
+      id = "64-2"  
       class = "boardSquare" 
-      @click="testMethod('64')">64</div>
+      @click="coordinateSelect('64')"/>
     <div  
-      id = "65"
+      id = "65-2"  
       class = "boardSquare" 
-      @click="testMethod('65')">65</div>
+      @click="coordinateSelect('65')"/>
     <div  
-      id = "66"
+      id = "66-2"  
       class = "boardSquare" 
-      @click="testMethod('66')">66</div>
+      @click="coordinateSelect('66')"/>
     <div  
-      id = "67"
+      id = "67-2"  
       class = "boardSquare" 
-      @click="testMethod('67')">67</div>
+      @click="coordinateSelect('67')"/>
     <div  
-      id = "68"
+      id = "68-2"  
       class = "boardSquare" 
-      @click="testMethod('68')">68</div>
+      @click="coordinateSelect('68')"/>
     <div 
-      id = "69" 
+      id = "69-2"    
       class = "boardSquare" 
-      @click="testMethod('69')">69</div>
+      @click="coordinateSelect('69')"/>
     <div 
-      id = "70" 
+      id = "70-2"    
       class = "boardSquare" 
-      @click="testMethod('70')">70</div>
+      @click="coordinateSelect('70')"/>
     <div  
-      id = "71"
+      id = "71-2"  
       class = "boardSquare" 
-      @click="testMethod('71')">71</div>
+      @click="coordinateSelect('71')"/>
     <div  
-      id = "72"
+      id = "72-2"  
       class = "boardSquare" 
-      @click="testMethod('72')">72</div>
+      @click="coordinateSelect('72')"/>
     <div  
-      id = "73"
+      id = "73-2"  
       class = "boardSquare" 
-      @click="testMethod('73')">73</div>
+      @click="coordinateSelect('73')"/>
     <div  
-      id = "74"
+      id = "74-2"  
       class = "boardSquare" 
-      @click="testMethod('74')">74</div>
+      @click="coordinateSelect('74')"/>
     <div  
-      id = "75"
+      id = "75-2"  
       class = "boardSquare" 
-      @click="testMethod('75')">75</div>
+      @click="coordinateSelect('75')"/>
     <div  
-      id = "76"
+      id = "76-2"  
       class = "boardSquare" 
-      @click="testMethod('76')">76</div>
+      @click="coordinateSelect('76')"/>
     <div 
-      id = "77" 
+      id = "77-2"    
       class = "boardSquare" 
-      @click="testMethod('77')">77</div>
+      @click="coordinateSelect('77')"/>
     <div  
-      id = "78"
+      id = "78-2"  
       class = "boardSquare" 
-      @click="testMethod('78')">78</div>
+      @click="coordinateSelect('78')"/>
     <div  
-      id = "79"
+      id = "79-2"  
       class = "boardSquare" 
-      @click="testMethod('79')">79</div>
+      @click="coordinateSelect('79')"/>
     <div  
-      id = "80"
+      id = "80-2"  
       class = "boardSquare" 
-      @click="testMethod('80')">80</div>
+      @click="coordinateSelect('80')"/>
     <div  
-      id = "81"
+      id = "81-2"  
       class = "boardSquare" 
-      @click="testMethod('81')">81</div>
+      @click="coordinateSelect('81')"/>
     <div  
-      id = "82"
+      id = "82-2"  
       class = "boardSquare" 
-      @click="testMethod('82')">82</div>
+      @click="coordinateSelect('82')"/>
     <div  
-      id = "83"
+      id = "83-2"  
       class = "boardSquare" 
-      @click="testMethod('83')">83</div>
+      @click="coordinateSelect('83')"/>
     <div  
-      id = "84"
+      id = "84-2"  
       class = "boardSquare" 
-      @click="testMethod('84')">84</div>
+      @click="coordinateSelect('84')"/>
     <div  
-      id = "85"
+      id = "85-2"  
       class = "boardSquare" 
-      @click="testMethod('85')">85</div>
+      @click="coordinateSelect('85')"/>
     <div  
-      id = "86"
+      id = "86-2"  
       class = "boardSquare" 
-      @click="testMethod('86')">86</div>
+      @click="coordinateSelect('86')"/>
     <div  
-      id = "87"
+      id = "87-2"  
       class = "boardSquare" 
-      @click="testMethod('87')">87</div>
+      @click="coordinateSelect('87')"/>
     <div  
-      id = "88"
+      id = "88-2"  
       class = "boardSquare" 
-      @click="testMethod('88')">88</div>
+      @click="coordinateSelect('88')"/>
     <div  
-      id = "89"
+      id = "89-2"  
       class = "boardSquare" 
-      @click="testMethod('89')">89</div>
+      @click="coordinateSelect('89')"/> 
     <div  
-      id = "90"
+      id = "90-2"  
       class = "boardSquare" 
-      @click="testMethod('90')">90</div>
+      @click="coordinateSelect('90')"/>
     <div  
-      id = "91"
+      id = "91-2"  
       class = "boardSquare" 
-      @click="testMethod('91')">91</div>
+      @click="coordinateSelect('91')"/>
     <div  
-      id = "92"
+      id = "92-2"  
       class = "boardSquare" 
-      @click="testMethod('92')">92</div>
+      @click="coordinateSelect('92')"/>
     <div  
-      id = "93"
+      id = "93-2"  
       class = "boardSquare" 
-      @click="testMethod('93')">93</div>
+      @click="coordinateSelect('93')"/>
     <div  
-      id = "94"
+      id = "94-2"  
       class = "boardSquare" 
-      @click="testMethod('94')">94</div>
+      @click="coordinateSelect('94')"/>
     <div  
-      id = "95"
+      id = "95-2"  
       class = "boardSquare" 
-      @click="testMethod('95')">95</div>
+      @click="coordinateSelect('95')"/>
     <div  
-      id = "96"
+      id = "96-2"  
       class = "boardSquare" 
-      @click="testMethod('96')">96</div>
+      @click="coordinateSelect('96')"/>
     <div  
-      id = "97"
+      id = "97-2"  
       class = "boardSquare" 
-      @click="testMethod('97')">97</div>
+      @click="coordinateSelect('97')"/>
     <div  
-      id = "98"
+      id = "98-2"  
       class = "boardSquare" 
-      @click="testMethod('98')">98</div>
+      @click="coordinateSelect('98')"/>
     <div 
-      id = "99" 
+      id = "99-2"  
       class = "boardSquare" 
-      @click="testMethod('99')">99</div>
+      @click="coordinateSelect('99')"/>
   </div>
 </template>
 
@@ -408,16 +408,55 @@
 
 export default {
     name: 'Board2',
+
+    // this is not working or uodating fast enough
+
+    // eslint-disable-next-line
+    props: ['shipplacement','computedshot'],
+
     data (){
         return{
-            coordinate: ''
+            coordinate: '',
+
         }
     },
+
+    watch:{
+      // triggers the markTile() when a new shot is fired
+      computedshot(){
+        this.markTile(this.coordinate)
+      }
+    },
     methods: {
-        testMethod(coordinate){
-            // eslint-disable-next-line
+      // selects coordinate and passes it to parent component, changing the attackCoordinate porperty
+        coordinateSelect(coordinate){
+          // doesn't trigger during placement phase
+          if(this.shipplacement){
+            return
+          }
+          else{
             this.coordinate = coordinate
-        }
+            this.$emit('changeCoordinate', this.coordinate)
+          }
+        },
+
+        markTile(coordinate){
+          let square = document.getElementById(coordinate+'-2')
+          if(this.computedshot == 0){
+            return
+          }
+          else if(this.computedshot == 1){
+            square.style.backgroundColor = 'rgb(179 179 159)'
+          }
+          else if(this.computedshot == 2){
+            square.style.borderColor = 'red'
+            square.style.color = 'red'
+            square.style.fontSize = '35px'
+            square.innerText = 'X'
+          } 
+          // emit and event that resets computed shot**
+          this.$emit('resetPlayer1ShotResult',0)
+        },
     },
 }
 // wont chnage css in style tag of elemnts created? Life cycle hook maybe?
@@ -443,7 +482,8 @@ export default {
 }
 
 .boardSquare:hover{
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.02);
 }
 
 </style>
