@@ -445,7 +445,7 @@ export default {
 
 // add random ship placement
 // add smart computer play
-// try run build
+
 
 </script>
 
