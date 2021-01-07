@@ -4,7 +4,7 @@ It was built to demonstrate proficency in the **JS framework Vue**.
 
 This web app also displays a competency in **Vanilla JS** and **Jest testing**.
 
-This web app uses **bael** and **webpack** to build.
+This web app uses **babel** and **webpack** to build.
 
 This web app has not been optimised for mobile devices.
 
