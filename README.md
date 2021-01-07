@@ -1,14 +1,20 @@
 This web app is an imitation of the board game 'Battleships'
 
-It was built to demonstrate proficency in the JS frmaework Vue.
+It was built to demonstrate proficency in the **JS frmaework Vue**.
 
-This web app also displays a competency in Vanilla JS and Jest testing.
+This web app also displays a competency in **Vanilla JS** and **Jest testing**.
 
-This web app uses webpack to build.
+This web app uses **webpack** to build.
 
 This web app has not been optimised for mobile devices.
 
-Made by Oisín Byrne - 2020
+Link to live demo - https://studiousvanilla.github.io/battleships/
+
+[![Screenshot-2021-01-07-at-13-02-10.png](https://i.postimg.cc/d0KB98GD/Screenshot-2021-01-07-at-13-02-10.png)](https://postimg.cc/hXpTDQyq)
+
+Made by Oisín Byrne - 2020 - https://studiousvanilla.github.io/portfolio/
+
+************
 
 Project Notes:
 
