@@ -1,6 +1,6 @@
 This web app is an imitation of the board game 'Battleships'
 
-It was built to demonstrate proficency in the **JS frmaework Vue**.
+It was built to demonstrate proficency in the **JS framework Vue**.
 
 This web app also displays a competency in **Vanilla JS** and **Jest testing**.
 
