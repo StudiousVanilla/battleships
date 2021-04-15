@@ -1,4 +1,4 @@
-This web app is an imitation of the board game 'Battleships'
+This web app is an imitation of the board game 'Battleships' :ship:
 
 It was built to demonstrate proficency in the **JS framework Vue**.
 
