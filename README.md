@@ -12,7 +12,7 @@ Link to live demo - https://studiousvanilla.github.io/battleships/
 
 [![Screenshot-2021-01-07-at-13-02-10.png](https://i.postimg.cc/d0KB98GD/Screenshot-2021-01-07-at-13-02-10.png)](https://postimg.cc/hXpTDQyq)
 
-Made by Oisín Byrne - 2020 - https://studiousvanilla.github.io/portfolio/
+Made by Oisín Byrne - 2020 - https://www.oisinbyrne.me/
 
 ************
 
